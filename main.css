@@ -1,0 +1,38 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  font-family: "Atkinson Hyperlegible Mono", sans-serif;
+  font-optical-sizing: auto;
+   color: #F9CC11;
+   background-color: white;
+}
+
+
+
+
+p h1 h2 h3{
+    color: black;
+}
+
+
+/* LOGO HOME */ 
+
+.box_logo_home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo_home{
+
+    width: 700px;
+}
+
+
+
+
+
