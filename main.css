@@ -140,6 +140,13 @@ text-align: center;
 }
 .p_residencia{
   width: 340px;
+  margin-top:50px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+.logo_pub{
+  width: 300px;
 }
 
 .box_video{
