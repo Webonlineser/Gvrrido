@@ -159,11 +159,13 @@ text-align: center;
  margin-top: 20px;
  margin-bottom: 20px;
 }
+
+
 .video_yt{
   width: 320px;
    box-shadow: 0 4px 10px black;
-
 }
+
 .texto_video{
   text-align: center;
 }
