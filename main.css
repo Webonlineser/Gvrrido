@@ -11,23 +11,51 @@ box-sizing: border-box;
 }
 
 
+.p_sobremi{
+  width: 300px;
+}
 
+.box_encabezado{
+  background-image: url(./asset/banner_header.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.h2_home{
+  text-align: center;
+background-color: transparent;
+margin-top: 25px;
+font-size: 30px;
+letter-spacing: 5px;
+
+}
 
 p h1 h2 h3{
     color: black;
 }
 
 h2{
-    text-align: center;
-    margin-top: 50px;  
-    margin-bottom:30px ;
+  margin-top: 15px;
  
 }
 p {
-    font-size: 10px;
+  font-size: 15px;
   color: #ccc;
   padding: 3px;
+  
 
+}
+
+.box_p{
+  margin:15px;
+  padding: 5px;
 }
 
 /* LOGO HOME */ 
@@ -36,6 +64,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 
@@ -49,22 +78,69 @@ p {
 }
 
 
+.texto_video{
+  font-size: 15px;
+}
+
 .box_sobremi{
-    
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
     margin: 5px;   
     border:1px solid #F9CC11;
     border-radius: 20px;
     padding: 5px;
     margin :0 auto;
-      box-shadow: 0 4px 10px black;
+    box-shadow: 0 4px 10px black;
 
     
 }
-.box_conten_sobremi h2 ,p{
-text-align: center;
+
+.banner_sobremi {
+  width: 340px;
+  border-radius: 20px;
+  justify-content: center;
+
+  
 }
 
+.box_conten_sobremi{
+  display:flex;
+flex-direction: column;
+justify-content: center;
+}
+.box_conten_sobremi h2 ,p{
+text-align: center;
+
+}
+
+.flyer{
+  width: 340px;
+  border-radius: 20px;
+}
+
+
+.banner_eventos{
+  width: 340px;
+  border-radius: 20px;
+}
+
+.box_residencia{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F9CC11;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 20px;
+}
+.p_residencia{
+  width: 340px;
+}
 
 .box_video{
     text-align: center;
@@ -81,20 +157,34 @@ text-align: center;
    box-shadow: 0 4px 10px black;
 
 }
+.texto_video{
+  text-align: center;
+}
 
 
-.box_conten_musica{
+.box_musica{
     
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid #F9CC11 ;
+    margin-top: 50px;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 50px;
     
-
 }
 .box_conten_musica h2 {
-text-align: center;
+
 }
 
+.Banner_musica{
+  width: 340px;
+  border-radius: 20px;
+}
 
 h1{
     text-align: center;
@@ -152,6 +242,10 @@ footer {
   padding:  20px;
   font-family: "Atkinson Hyperlegible Mono", sans-serif;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .footer-contenedor {
@@ -219,5 +313,27 @@ footer {
   display: block;
 }
 
+
+.box_contacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+border: 1px solid #F9CC11;
+border-radius: 20px;
+width: 340px;
+margin: 0 auto;
+}
+
+.h2_contacto{
+  text-align: center;
+  color: #F9CC11;
+}
+
+.p_contacto{
+
+padding-left:  20px;
+padding-right: 20px;
+ 
+}
 
 
