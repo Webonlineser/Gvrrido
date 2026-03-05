@@ -138,6 +138,10 @@ text-align: center;
   padding: 5px;
   border-radius: 20px;
 }
+
+
+
+
 .p_residencia{
   width: 340px;
   margin-top:50px;
@@ -152,8 +156,9 @@ text-align: center;
 .box_video{
     text-align: center;
     margin: 0 auto;
-
 }
+
+
 
 .texto_video{
  margin-top: 20px;
@@ -166,28 +171,33 @@ text-align: center;
    box-shadow: 0 4px 10px black;
 }
 
+
+
 .texto_video{
   text-align: center;
 }
 
 
-.box_musica{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    border: 1px solid #F9CC11 ;
-    margin-top: 50px;
-    width: fit-content;
-    padding: 5px;
-    border-radius: 20px;
-    margin-bottom: 50px;
+.box_musica{    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid #F9CC11 ;
+  margin-top: 50px;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 50px;
     
 }
+
+
+
 .box_conten_musica h2 {
 
+  
 }
 
 .Banner_musica{
